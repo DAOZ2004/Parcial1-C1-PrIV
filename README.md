@@ -4,7 +4,8 @@
 
 **Andrea Yamileth Rodriguez Hernandez SMSS073124**
 
-# Nueva Situación Problemática
+# Situación Problemática:
+
  # Sistema Web de Cotización de Reparación de Computadoras
  
 **Enunciado**

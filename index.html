@@ -24,7 +24,31 @@
 
   <main>
     <div class="titulo-central">
-      
+      <h2>Sistema de Cotización de Reparación</h2>
+
+    <form id="formCotizacion">
+
+        <input type="text" id="cliente" placeholder="Nombre del cliente">
+
+        <select id="tipoReparacion">
+            <option value="">Seleccione tipo de reparación</option>
+            <option value="150">Cambio de Pantalla - $150</option>
+            <option value="100">Formateo del Sistema - $100</option>
+            <option value="200">Cambio de Disco Duro - $200</option>
+        </select>
+
+        <select id="urgencia">
+            <option value="">Nivel de urgencia</option>
+            <option value="1">Normal</option>
+            <option value="1.2">Urgente (+20%)</option>
+        </select>
+
+        <button type="submit">Calcular Cotización</button>
+
+    </form>
+
+    <div id="resultado"></div>
+
       
     </div>
   </main>

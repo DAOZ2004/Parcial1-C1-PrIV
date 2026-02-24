@@ -49,6 +49,7 @@
       align-items: center;
     }
 
+    
     .titulo-central {
       font-size: 48px;
       font-weight: 800;
@@ -74,3 +75,35 @@
       font-size: 14px;
       opacity: 0.9;
     }
+
+
+.titulo-central{
+    text-align: center;
+    margin: 40px auto;
+}
+
+form{
+    margin: 20px auto;
+    padding: 20px;
+    width: 320px;
+    background: #f4f6f9;
+    border-radius: 10px;
+}
+
+input, select, button{
+    width: 90%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+button{
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #2563eb;
+}
+
